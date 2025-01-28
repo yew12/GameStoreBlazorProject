@@ -1,0 +1,122 @@
+﻿@page "/editGame"
+@page "/editGame/{id:int}"
+@inject NavigationManager NavigationManager
+@inject GamesClient GamesClient
+@inject GenresClient GenresClient
+@rendermode InteractiveServer
+
+<PageTitle>@title</PageTitle>
+<h3>@title</h3>
+
+@if(genres is null || game is null) 
+{
+    <p>Loading..</p>
+}
+else 
+{
+    <div class="row">
+        <div class="col-md-4">
+            @*  OnValidSubmit - makes sure we are following the data annotions in GameDetails.cs 
+                <DataAnnotationsValidator /> is required as well 
+                <ValidationSummary /> summarizes the required fields all in the same area.
+            *@
+            <EditForm 
+                Model="@game" 
+                FormName="editGame" 
+                OnValidSubmit="HandleSubmitAsync" 
+                Enhance 
+            >
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <InputText id="name" @bind-Value="game.Name" class="form-control"  />
+                    <ValidationMessage For="() => game.Name" />
+                </div>
+                <div class="mb-3">
+                    <label for="genre" class="form-label">Genre:</label>
+                    <InputSelect id="genre" @bind-Value="game.GenreId" class="form-select">
+                        <option value="">Select a genre</option>
+                        @foreach (var genre in genres) 
+                        {
+                            <option value="@genre.Id">@genre.Name</option>                    
+                        }
+                    </InputSelect>
+                    <ValidationMessage For="() => game.GenreId" />
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Price:</label>
+                    <InputNumber id="price" @bind-Value="game.Price" class="form-control"  />
+                    <ValidationMessage For="() => game.Price" />
+                </div>
+                <div class="mb-3">
+                    <label for="ReleaseDate" class="form-label">Release Date:</label>
+                    <InputDate id="ReleaseDate" @bind-Value="game.ReleaseDate" class="form-control"  />
+                </div>
+                <button type="submit" class="btn btn-primary"  >Submit</button>
+                <a class="btn btn-secondary" role="button" href="/" >Cancel</a>
+            </EditForm>
+        </div>
+    </div>
+}
+
+@code {
+    // specifies that it's a prameter from another page
+    [Parameter]
+    public int? Id { get; set; }
+
+    // lets blazor know that this the parameter to creat for the form
+    [SupplyParameterFromForm]
+    private GameDetails? game { get; set; }
+    private Genre[]? genres;
+    private string title = string.Empty;
+
+    // setting parameter from the possible routes "/editgames/{id:int}" or "/editgames"
+    // invoked first time in form AND when user sends data into server aka submits game
+    protected override async Task OnParametersSetAsync() 
+    {
+        // lets logic continue to make it to HandleSubmit method
+        if(game is not null) 
+        {
+            return;
+        }
+
+        if(Id is not null) 
+        {
+            // get game from games client
+            game = await GamesClient.GetGameAsync(Id.Value);
+            title = $"Edit {game.Name}";
+        }
+        else 
+        {
+            game = new()
+            {
+                Name = string.Empty,
+                ReleaseDate = DateOnly.FromDateTime(DateTime.UtcNow)
+            };
+            title = "New Game";
+        }
+    }
+
+    protected override async Task OnInitializedAsync() 
+    {
+        genres = await GenresClient.GetGenresAsync();
+    }
+
+    private async Task HandleSubmitAsync() 
+    {
+        ArgumentNullException.ThrowIfNull(game);
+
+        if(Id is null) 
+        {
+            await GamesClient.AddGameAsync(game);
+        }
+        else 
+        {
+            game.Id = Id.Value;
+            await GamesClient.UpdateGameAsync(game);
+        }
+
+        NavigationManager.NavigateTo("/"); // navigates back home
+    }
+}

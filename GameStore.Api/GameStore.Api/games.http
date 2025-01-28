@@ -1,0 +1,29 @@
+GET http://localhost:5177/games
+
+###
+GET http://localhost:5177/games/1
+
+###
+POST http://localhost:5177/games
+Content-Type: application/json
+
+{
+    "name": "Last of Us II",
+    "genreId": 3,
+    "price": 69.99,
+    "releaseDate": "2015-11-18"
+}
+
+###
+PUT http://localhost:5177/games/1
+Content-Type: application/json
+
+{
+    "name": "Street Fighter I",
+    "genreId": 3,
+    "price": 5.99,
+    "releaseDate": "1990-07-15"
+}
+
+###
+DELETE http://localhost:5177/games/3

@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "gusxJ+YGk1DfZBMXXUN7xLeLCA0fSf9UUB1ZU/AgdwQ=",
+  "Source": "GameStore.Frontend",
+  "BasePath": "_content/GameStore.Frontend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GameStore.Frontend/wwwroot",
+      "Source": "GameStore.Frontend",
+      "ContentRoot": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/wwwroot/",
+      "BasePath": "_content/GameStore.Frontend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "GameStore.Frontend#[.{fingerprint=2rxdveo5bz}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hzt3vm75s7",
+      "Integrity": "c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-4kywy7iv6g.gz",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "app#[.{fingerprint=4kywy7iv6g}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/wwwroot/app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ahq59hg6v0",
+      "Integrity": "st3KXVd5LITX3Mv9IexzVj2I0PHdFaEDCO8yBMBUp6U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "GameStore.Frontend#[.{fingerprint=2rxdveo5bz}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hzt3vm75s7",
+      "Integrity": "c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css"
+    },
+    {
+      "Identity": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "GameStore.Frontend#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "2rxdveo5bz",
+      "Integrity": "HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css"
+    },
+    {
+      "Identity": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "GameStore.Frontend#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "2rxdveo5bz",
+      "Integrity": "HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/wwwroot/app.css",
+      "SourceId": "GameStore.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/wwwroot/",
+      "BasePath": "_content/GameStore.Frontend",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4kywy7iv6g",
+      "Integrity": "9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.4kywy7iv6g.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-4kywy7iv6g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000721500722"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"st3KXVd5LITX3Mv9IexzVj2I0PHdFaEDCO8yBMBUp6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 00:26:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kywy7iv6g"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="
+        }
+      ]
+    },
+    {
+      "Route": "app.4kywy7iv6g.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 00:26:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kywy7iv6g"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="
+        }
+      ]
+    },
+    {
+      "Route": "app.4kywy7iv6g.css.gz",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-4kywy7iv6g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"st3KXVd5LITX3Mv9IexzVj2I0PHdFaEDCO8yBMBUp6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 00:26:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4kywy7iv6g"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-st3KXVd5LITX3Mv9IexzVj2I0PHdFaEDCO8yBMBUp6U="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-4kywy7iv6g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000721500722"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"st3KXVd5LITX3Mv9IexzVj2I0PHdFaEDCO8yBMBUp6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 00:26:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 00:26:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9DR4jqepGIo9Cj7VCYKuZtZqXALX1jWq8UpnuF3uz30="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/hpytjbslhg-4kywy7iv6g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"st3KXVd5LITX3Mv9IexzVj2I0PHdFaEDCO8yBMBUp6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 00:26:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-st3KXVd5LITX3Mv9IexzVj2I0PHdFaEDCO8yBMBUp6U="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.2rxdveo5bz.bundle.scp.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002994011976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rxdveo5bz"
+        },
+        {
+          "Name": "label",
+          "Value": "GameStore.Frontend.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.2rxdveo5bz.bundle.scp.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rxdveo5bz"
+        },
+        {
+          "Name": "label",
+          "Value": "GameStore.Frontend.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.2rxdveo5bz.bundle.scp.css.gz",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rxdveo5bz"
+        },
+        {
+          "Name": "label",
+          "Value": "GameStore.Frontend.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.2rxdveo5bz.styles.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002994011976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rxdveo5bz"
+        },
+        {
+          "Name": "label",
+          "Value": "GameStore.Frontend.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.2rxdveo5bz.styles.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rxdveo5bz"
+        },
+        {
+          "Name": "label",
+          "Value": "GameStore.Frontend.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.2rxdveo5bz.styles.css.gz",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2rxdveo5bz"
+        },
+        {
+          "Name": "label",
+          "Value": "GameStore.Frontend.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.bundle.scp.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002994011976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.bundle.scp.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/projectbundle/GameStore.Frontend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.bundle.scp.css.gz",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/602xsdby15-2rxdveo5bz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.styles.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002994011976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.styles.css",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/scopedcss/bundle/GameStore.Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HiOBx7jr+VIjPA226pM3ewkfyCU7AHBcnYs6VXEvmFM="
+        }
+      ]
+    },
+    {
+      "Route": "GameStore.Frontend.styles.css.gz",
+      "AssetFile": "/Users/gagebuss/Projects/GameStore/GameStore.Frontend/obj/Debug/net9.0/compressed/qc129nah4a-2rxdveo5bz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 23:20:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c/6PH4t7aS/dcpApkObtX/txlz62lzL2xdEDdKRVAzg="
+        }
+      ]
+    }
+  ]
+}
